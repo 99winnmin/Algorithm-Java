@@ -1,7 +1,7 @@
 # Data Structure
 ### Java Collection 프레임워크 기반 자료구조
 
-![img.png](img.png)
+![img.png](image/img.png)
 
 ## List 컬렉션 클래스 <br>
 List 인터페이스를 구현한 모든 List 컬렉션 클래스는 다음과 같은 특징을 가집니다.
@@ -37,13 +37,13 @@ JDK 1.2부터 제공된 LinkedList 클래스는 내부적으로 연결 리스트
 하지만 연결 리스트는 저장된 요소가 비순차적으로 분포되며, 이러한 요소들 사이를 링크(link)로 연결하여 구성합니다.
 다음 요소를 가리키는 참조만을 가지는 연결 리스트를 단일 연결 리스트(singly linked list)라고 합니다.
 
-![img_1.png](img_1.png)
+![img_1.png](image/img_1.png)
 
 이러한 단일 연결 리스트는 요소의 저장과 삭제 작업이 다음 요소를 가리키는 참조만 변경하면 되므로, 아주 빠르게 처리될 수 있습니다.
 하지만 단일 연결 리스트는 현재 요소에서 이전 요소로 접근하기가 매우 어렵습니다.
 따라서 이전 요소를 가리키는 참조도 가지는 이중 연결 리스트(doubly linked list)가 좀 더 많이 사용됩니다.
 
-![img_2.png](img_2.png)
+![img_2.png](image/img_2.png)
 
 LinkedList 클래스도 위와 같은 이중 연결 리스트를 내부적으로 구현한 것입니다.
 또한, LinkedList 클래스 역시 List 인터페이스를 구현하므로, ArrayList 클래스와 사용할 수 있는 메소드가 거의 같습니다. 
