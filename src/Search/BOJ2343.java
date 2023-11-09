@@ -21,7 +21,6 @@ public class BOJ2343 {
 
         while(start <= end){
             int mid = (start+end) / 2;
-            System.out.println("start : "+start+" || " + "end : " + end);
             int sum = 0;
             int count = 0;
             for(int i=0 ; i<N ; i++){
@@ -32,8 +31,6 @@ public class BOJ2343 {
                 sum = sum + A[i];
             }
             if(sum!=0) count++;
-            System.out.println("sum: " + sum + " || mid : "+mid+" || " + "count : " + count);
-            System.out.println();
 
             if (count > M) start = mid+1;
             else end = mid-1;
