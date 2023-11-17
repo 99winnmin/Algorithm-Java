@@ -1,4 +1,4 @@
-package softTeer;
+package softTeer.test;
 
 import java.io.*;
 import java.util.*;
