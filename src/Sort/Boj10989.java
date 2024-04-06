@@ -15,7 +15,7 @@ public class Boj10989 {
         }
 
         for(int i=0 ; i<10001 ; i++) {
-            if (arr[i] > 0) {
+            while (arr[i] > 0) {
                 sb.append(i).append("\n");
                 arr[i]--;
             }
